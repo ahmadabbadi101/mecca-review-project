@@ -63,9 +63,9 @@ header {
   opacity: 0;
   transition: opacity 0.2s;
 }
-.header--section-en::after {
+/* .header--section-en::after {
   right: 15px !important;
-}
+} */
 .header--section:hover::after {
   opacity: 1;
 }
@@ -235,6 +235,9 @@ header {
   .logo {
     width: 25%;
     height: 75%;
+  }
+  .header--section::after{
+    opacity:1;
   }
   .img--grid {
     height: 25%;
