@@ -234,10 +234,11 @@ header {
 
   .logo {
     width: 25%;
-    height: 100%;
+    height: 75%;
   }
   .img--grid {
-    max-height: 100%;
+    height: 25%;
+    width: auto;
   }
   .header--reviews {
     font-size: 2vw;
