@@ -40,6 +40,14 @@ header {
   width: 12vw;
   height: 12vw;
 }
+.lang{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  color:white;
+  padding: 10px 15px;
+}
 .header--general {
   padding: 7px;
   border-bottom: 3px solid var(--secondary-color);
@@ -55,7 +63,6 @@ header {
 .header--section::after {
   content: "▼";
   position: absolute;
-  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   font-size: 16px;
@@ -63,9 +70,12 @@ header {
   opacity: 0;
   transition: opacity 0.2s;
 }
-/* .header--section-en::after {
+.header--section--ar::after{
+  left: 15px;
+}
+ .header--section--en::after {
   right: 15px !important;
-} */
+}
 .header--section:hover::after {
   opacity: 1;
 }
@@ -79,7 +89,9 @@ header {
   font-family: sans-serif;
   font-weight: 450;
 }
-
+.section--content--en{
+  letter-spacing: 1px;
+}
 .container--grid {
   padding-top: 13%;
   position: relative;
@@ -168,6 +180,7 @@ header {
 
 .p--reviews {
   padding-right: 10px;
+  padding-left:10px;
   font-size: 20px;
   font-family: sans-serif;
   font-weight: 450px;
