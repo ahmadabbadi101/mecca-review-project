@@ -5,7 +5,7 @@ A review website for Mecca Juice flavors, built with HTML, CSS, and JavaScript.
 - [Project Overview](#Project-Overview)
 - [Features](#Features)
 - [Technical Details](#Technical-Details)
-- [Getting Started](#Getting-Started)
+- [Webpage Link](#Webpage-Link)
 - [Contributing](#Contributing)
 
 ## Project Overview
