@@ -24,7 +24,7 @@ Mecca Juice Reviews is a website that allows users to explore different juice fl
 - Utilizes JavaScript for interactivity and event handling.
 
 ## Webpage Link
-https://ahmadabbadi101.github.io/mecca-reviews-webpage/
+[Link](https://ahmadabbadi101.github.io/mecca-reviews-webpage/home.html)
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request.
